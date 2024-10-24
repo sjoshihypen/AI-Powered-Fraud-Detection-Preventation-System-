@@ -22,9 +22,13 @@ Key Features:
 Objective: Monitor transactions in real-time for suspicious behavior.
 
 Key Features:
+
 •	Streaming transaction data with options for users to simulate incoming transactions.
+
 •	Real-time fraud detection using anomaly detection algorithms (e.g., Isolation Forest, Autoencoders).
+
 •	AI Component: Real-time anomaly detection model identifying deviations from normal transaction behavior.
+
 •	Output: Real-time alerts with visualization of suspicious transactions.
 
 # 4.	Identity Veriﬁcation & Fraud Prevention Module:
@@ -32,9 +36,13 @@ Key Features:
 Objective: Use AI to verify identities and prevent identity fraud.
 
 Key Features:
+
 •	Image upload for identity verification (e.g., government ID documents).
+
 •	NLP-based name matching or face verification using facial recognition models.
+
 •	AI Component: Image recognition (for document verification) and NLP techniques for identity matching.
+
 •	Output: Identity verification result (verified/not verified) with fraud risk score.
 
 # 5.	Fraudulent Behavior Prediction Module:
@@ -42,9 +50,13 @@ Key Features:
 Objective: Predict future fraudulent behaviors using historical data.
 
 Key Features:
+
 •	Users can select and load past transaction data to predict future fraud.
+
 •	Time series analysis or predictive modeling (e.g., LSTM) to forecast the likelihood of fraud.
+
 •	AI Component: Predictive modeling to forecast fraud probability and trends over time.
+
 •	Output: Prediction of future fraudulent activities with risk analysis.
 
 # 6.	Fraud Analytics & Visualization Module:
@@ -52,7 +64,11 @@ Key Features:
 Objective: Visualize and analyze fraud detection results.
 
 Key Features:
+
 •	Dashboard for visualizing fraud detection analytics (charts, graphs, heatmaps).
+
 •	Users can filter the data based on time, risk level, and other parameters.
+
 •	AI Component: NLP-driven summarization of fraud trends, interactive data visualizations powered by tools like Plotly or Seaborn.
+
 •	Output: Comprehensive report with visuals of fraud trends, high-risk areas, and actionable insights.
