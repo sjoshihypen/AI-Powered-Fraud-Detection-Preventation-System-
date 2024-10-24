@@ -3,8 +3,10 @@
 # Objective :
 The platform allows users to detect and prevent different types of fraud (financial, identity theft, transaction fraud, etc.) by analyzing patterns, user behavior, and metadata using AI. It will include real-time fraud detection, anomaly detection and preventation strategies.
 
-# 2. Fraud Pa􀆩ern Detection Module:
+# 2. Fraud Pattern Detection Module:
+
 Objective: Upload and analyze datasets (transactional or otherwise) to detect fraud patterns.
+
 Key Features:
 •	Users can upload datasets (e.g., financial transactions) for analysis.
 •	Use clustering (K-means) or classification (Random Forest, SVM) models to detect fraudulent patterns.
@@ -12,7 +14,9 @@ Key Features:
 •	Output: Detailed report on identified fraudulent transactions.
 
 # 3.	Real-Time Transaction Monitoring Module:
+
 Objective: Monitor transactions in real-time for suspicious behavior.
+
 Key Features:
 •	Streaming transaction data with options for users to simulate incoming transactions.
 •	Real-time fraud detection using anomaly detection algorithms (e.g., Isolation Forest, Autoencoders).
@@ -20,7 +24,9 @@ Key Features:
 •	Output: Real-time alerts with visualization of suspicious transactions.
 
 # 4.	Identity Veriﬁcation & Fraud Prevention Module:
+
 Objective: Use AI to verify identities and prevent identity fraud.
+
 Key Features:
 •	Image upload for identity verification (e.g., government ID documents).
 •	NLP-based name matching or face verification using facial recognition models.
@@ -28,7 +34,9 @@ Key Features:
 •	Output: Identity verification result (verified/not verified) with fraud risk score.
 
 # 5.	Fraudulent Behavior Prediction Module:
+
 Objective: Predict future fraudulent behaviors using historical data.
+
 Key Features:
 •	Users can select and load past transaction data to predict future fraud.
 •	Time series analysis or predictive modeling (e.g., LSTM) to forecast the likelihood of fraud.
@@ -36,7 +44,9 @@ Key Features:
 •	Output: Prediction of future fraudulent activities with risk analysis.
 
 # 6.	Fraud Analytics & Visualization Module:
+
 Objective: Visualize and analyze fraud detection results.
+
 Key Features:
 •	Dashboard for visualizing fraud detection analytics (charts, graphs, heatmaps).
 •	Users can filter the data based on time, risk level, and other parameters.
