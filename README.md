@@ -8,9 +8,13 @@ The platform allows users to detect and prevent different types of fraud (financ
 Objective: Upload and analyze datasets (transactional or otherwise) to detect fraud patterns.
 
 Key Features:
+
 •	Users can upload datasets (e.g., financial transactions) for analysis.
+
 •	Use clustering (K-means) or classification (Random Forest, SVM) models to detect fraudulent patterns.
+
 •	AI Component: Pre-trained fraud detection models that analyze data and ﬂag potentially fraudulent patterns.
+
 •	Output: Detailed report on identified fraudulent transactions.
 
 # 3.	Real-Time Transaction Monitoring Module:
