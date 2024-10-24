@@ -105,9 +105,12 @@ Key Features:
 
 ![image](https://github.com/user-attachments/assets/df894b51-66b1-4ce2-9d36-29059f24f2a4)
 
-# Note: Python must have installed before running AI Powered: Fraud Detection & Preventation System on localhost server. [https://www.python.org/downloads/]
+**Note: Python must have installed before running AI Powered: Fraud Detection & Preventation System on localhost server. [https://www.python.org/downloads/]**
 
-# Steps to Run AI Powered: Fraud Detection & Preventation System 
+**Steps to Run AI Powered: Fraud Detection & Preventation System**
+
 Step 1 : pip install requirements.txt
+
 Step 2 : pip install streamlit
+
 Step 3 : streamlit run 🏡Home.py
