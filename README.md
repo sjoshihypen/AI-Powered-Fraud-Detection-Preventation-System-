@@ -3,6 +3,20 @@
 # Objective :
 The platform allows users to detect and prevent different types of fraud (financial, identity theft, transaction fraud, etc.) by analyzing patterns, user behavior, and metadata using AI. It will include real-time fraud detection, anomaly detection and preventation strategies.
 
+# 1.	User Authentication & Access Control:
+
+Objective: Secure the platform by allowing user sign-up/sign-in functionality with role-based access (admin/user).
+
+Key Features:
+
+•	Secure login with encryption.
+
+•	Roles: Admin (access to all modules) and Regular User (limited access).
+
+•	Token-based authentication for secure API usage.
+
+•	AI Component: AI-driven CAPTCHA, adaptive security based on login behavior (detect unusual login patterns).
+
 # 2. Fraud Pattern Detection Module:
 
 Objective: Upload and analyze datasets (transactional or otherwise) to detect fraud patterns.
