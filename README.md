@@ -34,6 +34,9 @@ Key Features:
 
 •	Output: Detailed report on identified fraudulent transactions.
 
+![image](https://github.com/user-attachments/assets/a0b485c1-f03c-47d0-9c8c-f39c02d8c1c7)
+
+
 # 3.	Real-Time Transaction Monitoring Module:
 
 Objective: Monitor transactions in real-time for suspicious behavior.
@@ -47,6 +50,10 @@ Key Features:
 •	AI Component: Real-time anomaly detection model identifying deviations from normal transaction behavior.
 
 •	Output: Real-time alerts with visualization of suspicious transactions.
+
+![image](https://github.com/user-attachments/assets/2260e26b-5cee-418e-9284-9b86a0efa4f6)
+
+
 
 # 4.	Identity Veriﬁcation & Fraud Prevention Module:
 
@@ -62,6 +69,9 @@ Key Features:
 
 •	Output: Identity verification result (verified/not verified) with fraud risk score.
 
+![image](https://github.com/user-attachments/assets/83c2b969-dc49-4c66-9c33-bdbca246bdd1)
+
+
 # 5.	Fraudulent Behavior Prediction Module:
 
 Objective: Predict future fraudulent behaviors using historical data.
@@ -76,6 +86,9 @@ Key Features:
 
 •	Output: Prediction of future fraudulent activities with risk analysis.
 
+![image](https://github.com/user-attachments/assets/78804361-b0a2-439f-b257-6d32bd7d20d6)
+
+
 # 6.	Fraud Analytics & Visualization Module:
 
 Objective: Visualize and analyze fraud detection results.
@@ -89,3 +102,6 @@ Key Features:
 •	AI Component: NLP-driven summarization of fraud trends, interactive data visualizations powered by tools like Plotly or Seaborn.
 
 •	Output: Comprehensive report with visuals of fraud trends, high-risk areas, and actionable insights.
+
+![image](https://github.com/user-attachments/assets/df894b51-66b1-4ce2-9d36-29059f24f2a4)
+
