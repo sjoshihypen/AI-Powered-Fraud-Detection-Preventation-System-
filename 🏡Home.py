@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import mysql
 import mysql.connector
 from streamlit_option_menu import option_menu
 st.set_page_config(
