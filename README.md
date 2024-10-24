@@ -5,9 +5,9 @@ The platform allows users to detect and prevent different types of fraud (financ
 
 # 1.	User Authentication & Access Control:
 
-Objective: Secure the platform by allowing user sign-up/sign-in functionality with role-based access (admin/user).
+**Objective:** Secure the platform by allowing user sign-up/sign-in functionality with role-based access (admin/user).
 
-Key Features:
+**Key Features:**
 
 •	Secure login with encryption.
 
@@ -22,9 +22,9 @@ Key Features:
 
 # 2. Fraud Pattern Detection Module:
 
-Objective: Upload and analyze datasets (transactional or otherwise) to detect fraud patterns.
+**Objective:** Upload and analyze datasets (transactional or otherwise) to detect fraud patterns.
 
-Key Features:
+**Key Features:**
 
 •	Users can upload datasets (e.g., financial transactions) for analysis.
 
@@ -39,9 +39,9 @@ Key Features:
 
 # 3.	Real-Time Transaction Monitoring Module:
 
-Objective: Monitor transactions in real-time for suspicious behavior.
+**Objective:** Monitor transactions in real-time for suspicious behavior.
 
-Key Features:
+**Key Features:**
 
 •	Streaming transaction data with options for users to simulate incoming transactions.
 
@@ -57,9 +57,9 @@ Key Features:
 
 # 4.	Identity Veriﬁcation & Fraud Prevention Module:
 
-Objective: Use AI to verify identities and prevent identity fraud.
+**Objective:** Use AI to verify identities and prevent identity fraud.
 
-Key Features:
+**Key Features:**
 
 •	Image upload for identity verification (e.g., government ID documents).
 
@@ -74,9 +74,9 @@ Key Features:
 
 # 5.	Fraudulent Behavior Prediction Module:
 
-Objective: Predict future fraudulent behaviors using historical data.
+**Objective:** Predict future fraudulent behaviors using historical data.
 
-Key Features:
+**Key Features:**
 
 •	Users can select and load past transaction data to predict future fraud.
 
@@ -91,9 +91,9 @@ Key Features:
 
 # 6.	Fraud Analytics & Visualization Module:
 
-Objective: Visualize and analyze fraud detection results.
+**Objective:** Visualize and analyze fraud detection results.
 
-Key Features:
+**Key Features:**
 
 •	Dashboard for visualizing fraud detection analytics (charts, graphs, heatmaps).
 
@@ -109,8 +109,8 @@ Key Features:
 
 **Steps to Run AI Powered: Fraud Detection & Preventation System**
 
-Step 1 : pip install requirements.txt
+**Step 1 :** pip install requirements.txt
 
-Step 2 : pip install streamlit
+**Step 2 :** pip install streamlit
 
-Step 3 : streamlit run 🏡Home.py
+**Step 3 :** streamlit run 🏡Home.py
