@@ -1,1 +1,1 @@
-# AI-Powered-Fraud-Detection-Preventation-System-
+# AI Powered: Fraud Detection & Preventation System
