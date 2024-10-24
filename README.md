@@ -17,6 +17,9 @@ Key Features:
 
 •	AI Component: AI-driven CAPTCHA, adaptive security based on login behavior (detect unusual login patterns).
 
+![image](https://github.com/user-attachments/assets/28cca45b-02b3-4d5e-8c5a-0737e34dc337)
+
+
 # 2. Fraud Pattern Detection Module:
 
 Objective: Upload and analyze datasets (transactional or otherwise) to detect fraud patterns.
