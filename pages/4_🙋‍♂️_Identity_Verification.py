@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
-#import face_recognition
-import deepface
+import face_recognition
+#import deepface
 import numpy as np
 from PIL import Image
 from transformers import pipeline
@@ -21,19 +21,19 @@ name_input = st.text_input("Enter the name as per the ID document")
 # Function for image verification (face comparison)
 def verify_face(doc_img, face_img):
     # Load and encode the images using face_recognition
-    # doc_image = face_recognition.load_image_file(doc_img)
-    # face_image = face_recognition.load_image_file(face_img)
-    doc_image = deepface.load_image_file(doc_img)
-    face_image = deepface.load_image_file(face_img)
+    doc_image = face_recognition.load_image_file(doc_img)
+    face_image = face_recognition.load_image_file(face_img)
+    # doc_image = deepface.load_image_file(doc_img)
+    # face_image = deepface.load_image_file(face_img)
     try:
-        # doc_encoding = face_recognition.face_encodings(doc_image)[0]
-        # face_encoding = face_recognition.face_encodings(face_image)[0]
-        doc_encoding = deepface.face_encodings(doc_image)[0]
-        face_encoding = deepface.face_encodings(face_image)[0]
+        doc_encoding = face_recognition.face_encodings(doc_image)[0]
+        face_encoding = face_recognition.face_encodings(face_image)[0]
+        # doc_encoding = deepface.face_encodings(doc_image)[0]
+        # face_encoding = deepface.face_encodings(face_image)[0]
         
         # Compare faces
-        # results = face_recognition.compare_faces([doc_encoding], face_encoding)
-        results = deepface.compare_faces([doc_encoding], face_encoding)
+        results = face_recognition.compare_faces([doc_encoding], face_encoding)
+        # results = deepface.compare_faces([doc_encoding], face_encoding)
         return results[0]
     except IndexError:
         return None  # No face detected
@@ -73,5 +73,4 @@ if uploaded_file and uploaded_face and name_input:
         st.error(f"Identity Verification Failed. Fraud Risk Score: {fraud_risk}/100")
 else:
     st.write("Please upload both images and provide a name for verification.")
-
 
